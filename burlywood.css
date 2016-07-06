@@ -1,2 +1,42 @@
 ﻿body {
+    background-color: burlywood;
+    margin: 25px auto;
+    padding: 25px;
+}
+p{
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+h1{
+    font-style: italic;
+    font-family: fantasy;
+    font-weight:bolder;
+    text-align: center;
+    border-bottom: black 2px dotted;
+    margin-top: 1px;
+}
+ul {
+    font-style: italic;
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: center;
+}
+
+li::first-letter { 
+    font-size: 150%;
+}
+main{
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+    background-color: white;
+    border: black 2px dotted;
+    width: 700px;
+    height: 560px;
+    margin: auto;
+}
+
+p.copyright{
+    text-align: center;
+    font-size: 10px;
 }
